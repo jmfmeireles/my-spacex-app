@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders header properly 1`] = `
+<div>
+  <header
+    class="header"
+  >
+    <h3
+      class="title"
+    >
+      My Space X App
+    </h3>
+    <p
+      class="decription"
+    >
+      Next.js app that displays last Space X launches
+    </p>
+  </header>
+</div>
+`;

@@ -1,0 +1,115 @@
+.title {
+  font-weight: normal;
+  margin-top: 10px;
+}
+
+.launchAndRocket {
+  padding-bottom: 20px;
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  font-weight: normal;
+}
+
+.launchAndRocket span {
+  font-weight: bold;
+  color: white;
+}
+
+.launchInfo {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+}
+
+.launchInfo * {
+  padding: 5px 0;
+}
+
+
+.rocket {
+  display: flex;
+  flex-direction: row;
+  margin: auto 0px;
+  width: 40%;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.detailedInfo {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.image {
+  width: 30%;
+  height: 100%;
+  margin-top: 10px;
+  padding-right: 15px;
+  text-align: center;
+  justify-content: center;
+}
+
+.textInfo {
+  padding: 5px;
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+}
+
+.details {
+  padding: 20px 0px;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.shipsWrapper {
+  padding: 20px 0px;
+}
+
+.ships {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 10px;
+}
+
+.ship {
+  width: 50%;
+  padding: 4px 0px;
+  cursor: pointer;
+}
+
+.ship:hover{
+  text-decoration: underline;
+}
+
+.buttons {
+  padding: 20px 0px;
+  display: flex;
+  flex-direction: row;
+}
+
+.buttons *{
+  margin-right: 20px;
+}
+
+@media (max-width: 750px) {
+  .image {
+    width: 100%;
+    display: block;
+    border-style: none;
+    margin-bottom: 10px;
+    padding-right: 0px;
+  }
+
+  .textInfo {
+    width: 100%;
+  }
+
+  .ship {
+    width: 100%;
+  }
+}

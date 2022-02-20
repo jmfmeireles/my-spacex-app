@@ -1,0 +1,29 @@
+.header{
+  display: flex;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  align-items: center;
+  justify-content: flex-start;
+  z-index: 2;
+}
+
+.title {
+  font-size: 1.25rem;
+  font-weight: bold;
+  margin-right: 0.5rem;
+}
+
+.description{
+  font-size: 0.75rem;
+  font-weight: normal;
+}
+
+@media (max-width: 500px) {
+  .title {
+    font-size: 1rem;
+  }
+  .description {
+    font-size: 0.5rem;
+  }
+}
