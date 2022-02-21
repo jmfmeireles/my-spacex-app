@@ -1,34 +1,30 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# My Space X App
 
-## Getting Started
+Responsive web app with the purpose of displaying information about the last 10 Space X missions.
 
-First, run the development server:
+## Relevant Technologies
+- <a href="https://nextjs.org/">Next.js</a>, an interesting technology which I had curiosity to try. Next.js is great to build performant web apps due to the fastest pages loading times and to bring features like Search Engine Optimization.
+- <a href="https://mui.com/">Apollo Client</a>is a comprehensive state management library for JavaScript that enables you to manage both local and remote data with GraphQL. Managing data with Apollo Client allows to take advantage of GraphQL as a unified interface to all of data.
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+## Next improvements
+- Performance optimisation on loading time (explore caching)
+- Include error handling on pages
+- Implement styled components and, after that, include a light theme
+- Optimise image loading (maybe by adding a blur effect)
+## Install & Start
+After cloning this project locally, you must install its dependencies by running the following command:
+- _npm install_
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+After installing dependencies, you are ready to go. Please run the following command:
+- _npm run dev_
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+Having all the dependencies installed, you can all run the unit tests:
+- _npm run test_
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+## Release Notes
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+### 1.0.0 (22/02/2022)
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- Initial Version of My Space X App
+  - Page with a list of the 10 last missions
+  - Page to display details of a specific mission
